@@ -34,6 +34,8 @@ namespace Stack
         {
             instance = this;
             theStack = FindObjectOfType<TheStack>();
+
+            Screen.SetResolution(1080,1920,false);
         
             homeUI = GetComponentInChildren<HomeUI>(true);
             homeUI?.Init(this);

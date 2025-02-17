@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Mini_Stack.unity
+    guid: 927ca8a4b02e3b54d96d029fe477a150
+  - enabled: 1
+    path: Assets/Scenes/Mini_FlapPlane.unity
+    guid: 17d5b16849506184b9484c97ac6e7223
   m_configObjects: {}
