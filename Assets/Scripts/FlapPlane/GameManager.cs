@@ -22,6 +22,7 @@ namespace FlapPlane
         private void Awake()
         {
             gameManager = this;
+            SetScreen();
             uiManager = FindObjectOfType<UIManager>();
         }
     
@@ -53,6 +54,10 @@ namespace FlapPlane
             uiManager.UpdateScore(currentScore);
             Debug.Log("Score: " + currentScore);
         }
-    
+
+        public void SetScreen()
+        {
+            Screen.SetResolution(1920, 1080, false);
+        }
     }
 }
