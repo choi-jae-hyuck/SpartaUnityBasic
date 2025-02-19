@@ -14,12 +14,14 @@ namespace MainGame
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            UI.SetActive(true);
+            if(other.CompareTag("Player"))
+                UI.SetActive(true);
         }
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            UI.SetActive(false);
+            if(other.CompareTag("Player"))
+                UI.SetActive(false);
         }
     }
 }

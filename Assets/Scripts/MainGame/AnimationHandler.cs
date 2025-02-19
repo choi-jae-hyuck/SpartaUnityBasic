@@ -7,6 +7,7 @@ namespace MainGame
         private static readonly int IsMoving = Animator.StringToHash("IsMove");
         private static readonly int MoveX = Animator.StringToHash("MoveX");
         private static readonly int MoveY = Animator.StringToHash("MoveY");
+        private static readonly int IsCar = Animator.StringToHash("IsCar");
 
         protected Animator animator;
 
@@ -31,6 +32,11 @@ namespace MainGame
             
             animator.SetFloat(MoveX, obj.x);
             animator.SetFloat(MoveY, obj.y);
+        }
+
+        public void Car()
+        {
+            animator.SetBool(IsCar, !animator.GetBool(IsCar));
         }
     }
 }

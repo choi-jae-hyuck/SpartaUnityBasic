@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 10c1866f49430234994095ffc89138ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red_vehicles_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 232
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6962f1f1c3ba8c04a868d278fb60862c
+      internalID: -1745798065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_vehicles_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 230
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62560c3ca0ed214caebee4e762cd1b0
+      internalID: 1513339553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_vehicles_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 232
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0587b354896df74fa67107c45866a1d
+      internalID: 1558709232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_vehicles_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 230
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722000e2e91296440b4f159a02c476b8
+      internalID: -343113987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      red_vehicles_0: -1745798065
+      red_vehicles_1: 1513339553
+      red_vehicles_10: -98450974
+      red_vehicles_11: 657155910
+      red_vehicles_12: -246367590
+      red_vehicles_13: -1354209106
+      red_vehicles_14: -1034547369
+      red_vehicles_15: 1191059350
+      red_vehicles_16: 81104042
+      red_vehicles_17: 1490269395
+      red_vehicles_18: 1324106320
+      red_vehicles_19: 1746991328
+      red_vehicles_2: 1558709232
+      red_vehicles_20: 2009155993
+      red_vehicles_21: 1323193467
+      red_vehicles_22: 1076586793
+      red_vehicles_23: -954203933
+      red_vehicles_24: 1463496562
+      red_vehicles_25: 1822669602
+      red_vehicles_26: 1681646935
+      red_vehicles_27: -1395862004
+      red_vehicles_28: 1666187144
+      red_vehicles_29: -1640283555
+      red_vehicles_3: -343113987
+      red_vehicles_30: -770893025
+      red_vehicles_31: -2123159591
+      red_vehicles_32: -1104363293
+      red_vehicles_33: -1829516706
+      red_vehicles_34: -1461741138
+      red_vehicles_35: -1915369749
+      red_vehicles_36: 1326548316
+      red_vehicles_37: -1516419176
+      red_vehicles_38: -1989567325
+      red_vehicles_39: 748130853
+      red_vehicles_4: -442922059
+      red_vehicles_40: 1013453745
+      red_vehicles_41: 657761295
+      red_vehicles_42: -1279916455
+      red_vehicles_43: 352844202
+      red_vehicles_44: 1047963240
+      red_vehicles_45: -713139716
+      red_vehicles_46: -1512219244
+      red_vehicles_47: 1088668773
+      red_vehicles_48: -1525067914
+      red_vehicles_49: -772086777
+      red_vehicles_50: -103341925
+      red_vehicles_51: -625648894
+      red_vehicles_52: 1942627423
+      red_vehicles_53: 1252681843
+      red_vehicles_54: -1033612518
+      red_vehicles_55: 1117331520
+      red_vehicles_56: 1864997790
+      red_vehicles_57: 1507611386
+      red_vehicles_58: -1835631727
+      red_vehicles_59: 137813221
+      red_vehicles_6: -907356229
+      red_vehicles_60: 504738966
+      red_vehicles_61: 1656014439
+      red_vehicles_62: 1458733499
+      red_vehicles_63: 524279452
+      red_vehicles_8: 1726401332
+      red_vehicles_9: 4890409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

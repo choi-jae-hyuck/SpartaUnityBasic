@@ -31,5 +31,10 @@ namespace MainGame
                 lookDirection = lookDirection.normalized;
             }
         }
+
+        public void ChangeSpeed(int speed)
+        {
+            Speed = speed;
+        }
     }
 }

@@ -14,7 +14,15 @@ namespace MainGame
         
         protected Vector2 lookDirection = Vector2.zero;
         public Vector2 LookDirection{get{return lookDirection;}}
-        
+
+        [SerializeField] private int speed = 5;
+        protected int Speed
+        {
+            get{return speed;}
+            set => speed = value;
+        }
+
+
         protected AnimationHandler animationHandler;
 
 
@@ -46,7 +54,7 @@ namespace MainGame
 
         private void Movement(Vector2 direction)
         {
-            direction *= 5;
+            direction *= Speed;
             _rigidbody.velocity = direction;
             animationHandler.Move(direction);
         }
