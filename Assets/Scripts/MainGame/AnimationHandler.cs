@@ -27,6 +27,7 @@ namespace MainGame
             {
                 obj.x = 0;
             }
+            obj.Normalize();
             
             animator.SetFloat(MoveX, obj.x);
             animator.SetFloat(MoveY, obj.y);

@@ -6,6 +6,9 @@ namespace FlapPlane
     public class GameManager : MonoBehaviour
     {
         static GameManager gameManager;
+        
+        private const string BestScoreKey = "MiniFlap_BestScore";
+        private int bestScore = 0;
 
         public static GameManager Instance
         {
@@ -23,6 +26,7 @@ namespace FlapPlane
         {
             gameManager = this;
             SetScreen();
+            bestScore = PlayerPrefs.GetInt(BestScoreKey, bestScore);
             uiManager = FindObjectOfType<UIManager>();
         }
     
@@ -34,6 +38,7 @@ namespace FlapPlane
         public void GameOver()
         {
             Debug.Log("Game Over");
+            PlayerPrefs.SetInt(BestScoreKey, bestScore);
             uiManager.SetRestart();
         }
     
@@ -51,6 +56,8 @@ namespace FlapPlane
         public void AddScore(int score)
         {
             currentScore += score;
+            if(currentScore > bestScore)
+                bestScore = currentScore;
             uiManager.UpdateScore(currentScore);
             Debug.Log("Score: " + currentScore);
         }

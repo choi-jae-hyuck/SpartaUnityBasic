@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace MainGame
@@ -8,7 +9,12 @@ namespace MainGame
         [SerializeField] private float smooth = 0.1f;
         [SerializeField] private Vector2 maxCameraBounds;
         [SerializeField] private Vector2 minCameraBounds;
-        
+
+        private void Awake()
+        {
+            Screen.SetResolution(1920, 1080, false);
+        }
+
         private void FixedUpdate()
         {
             Vector3 targetPos = new Vector3(target.position.x, target.position.y, this.transform.position.z);
