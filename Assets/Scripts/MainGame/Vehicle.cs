@@ -27,10 +27,12 @@ namespace MainGame
 
         private void OnTriggerStay2D(Collider2D other)
         {
-            if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.F) && !IsRide)
+            if (other.gameObject.CompareTag("Player") && Input.GetKeyDown(KeyCode.F) && !IsRide)
             {
                 RideCar();
             }
+            if(other.gameObject.CompareTag("BackGround"))
+                return;
         }
 
         private void Update()

@@ -28,6 +28,7 @@ namespace FlapPlane
             SetScreen();
             bestScore = PlayerPrefs.GetInt(BestScoreKey, bestScore);
             uiManager = FindObjectOfType<UIManager>();
+            Time.timeScale = 0;
         }
     
         private void Start()

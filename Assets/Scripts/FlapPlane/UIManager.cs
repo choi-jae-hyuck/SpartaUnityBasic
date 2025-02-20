@@ -7,6 +7,7 @@ namespace FlapPlane
     {
         public TextMeshProUGUI scoreText;
         public TextMeshProUGUI restartText;
+        public GameObject Title;
 
         public void Start()
         {
@@ -22,6 +23,12 @@ namespace FlapPlane
             }
         
             restartText.gameObject.SetActive(false);
+        }
+
+        public void GameStart()
+        {
+            Title.SetActive(false);
+            Time.timeScale = 1;
         }
 
         public void SetRestart()
