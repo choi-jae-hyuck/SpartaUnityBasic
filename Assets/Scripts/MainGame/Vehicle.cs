@@ -6,6 +6,7 @@ namespace MainGame
     public class Vehicle : MonoBehaviour
     {
         private bool IsRide = false;
+        private bool IsTriggerIn = false;
         [SerializeField]private GameObject gridCar;
         [SerializeField] private GameObject player;
         private PlayerController playerController;
@@ -27,16 +28,29 @@ namespace MainGame
 
         private void OnTriggerStay2D(Collider2D other)
         {
-            if (other.gameObject.CompareTag("Player") && Input.GetKeyDown(KeyCode.F) && !IsRide)
+           
+            if (other.gameObject.CompareTag("Player"))
             {
-                RideCar();
+                IsTriggerIn = true;
             }
             if(other.gameObject.CompareTag("BackGround"))
                 return;
         }
 
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+                IsTriggerIn = false;
+        }
+        
+
         private void Update()
         {
+            if (!IsRide && Input.GetKeyDown(KeyCode.F) && IsTriggerIn)
+            {
+                RideCar();
+            }
+            
             if (IsRide && Input.GetKeyDown(KeyCode.V))
             {
                 IsRide = false;
